@@ -1,2 +1,5 @@
-package com.example.project3interface.soundmakers;public interface Soundmaker {
+package com.example.project3interface.soundmakers;
+
+public interface Soundmaker {
+    void makeSound();
 }

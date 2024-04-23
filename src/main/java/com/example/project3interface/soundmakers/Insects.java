@@ -1,2 +1,5 @@
-package com.example.project3interface.soundmakers;public class Insects {
+package com.example.project3interface.soundmakers;
+
+public abstract class Insects implements Soundmaker{
+
 }

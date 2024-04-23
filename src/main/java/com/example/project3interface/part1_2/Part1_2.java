@@ -1,4 +1,4 @@
-package com.example.project3interface;
+package com.example.project3interface.part1_2;
 
 import java.util.ArrayList;
 
