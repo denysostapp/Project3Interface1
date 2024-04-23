@@ -22,24 +22,24 @@ package com.example.project3interface;
 //                System.out.println("Hello from the local class");
 //            }
 //        }
+interface Printable {
+    void printMessage();
+}
 //
 //        LocalClass local = new LocalClass();
 //        local.printMessage();
 //    }
 //}
-public class OuterClass {
-    interface Printable {
-        void printMessage();
-    }
-
-    public void demonstrateAnonymousClass() {
-        Printable printable = new Printable() {
-            @Override
-            public void printMessage() {
-                System.out.println("Hello from the anonymous class");
-            }
-        };
-
-        printable.printMessage();
-    }
-}
+//public class OuterClass {
+//
+//    public void demonstrateAnonymousClass() {
+//        Printable printable = new Printable() {
+//            @Override
+//            public void printMessage() {
+//                System.out.println("Hello from the anonymous class");
+//            }
+//        };
+//
+//        printable.printMessage();
+//    }
+//}

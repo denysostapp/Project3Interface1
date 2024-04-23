@@ -11,6 +11,8 @@ class Superclass {
     class Subclass extends Superclass{
         @Override
         void theMethod(){
+
+            super.theMethod();
             System.out.println("Method of SubClass");
         }
     }
